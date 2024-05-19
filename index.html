@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video Page</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin: 0;
+            background-color: #f5f5f5;
+        }
+        .original-video {
+            position: relative; 
+            left: 20%;
+        }
+        .video-container {
+            display: grid;
+            margin: 0 auto;
+            position: relative;
+        }
+        .radio-container {
+            width: 18px;
+            height: 18px;
+        }
+        .navigation-buttons {
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+            padding: 20px;
+        }
+        .navigation-buttons button {
+            background-color: black;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div class="video-container">
+        <div id="videos"></div>
+    </div>
+    <br>
+    <form>
+    <fieldset id="question" style="width:600px;">
+        <legend><b id="text_prompt"></b></legend>
+        <p>Q1. Question1</p>
+        <div>
+            <input type="radio" id="q1v1" name="Q1" value="1" class="radio-container"/>
+            <label for="q1v1">Video 1</label>
+        
+            <input type="radio" id="q1v2" name="Q1" value="2" class="radio-container"/>
+            <label for="q1v2">Video 2</label>
+        </div>
+        <p>Q2. Question2</p>
+        <div>
+            <input type="radio" id="q2v1" name="Q2" value="1" class="radio-container"/>
+            <label for="q2v1">Video 1</label>
+        
+            <input type="radio" id="q2v2" name="Q2" value="2" class="radio-container"/>
+            <label for="q2v2">Video 2</label>
+        </div>
+        <p>Q3. Question3</p>
+        <div>
+            <input type="radio" id="q3v1" name="Q3" value="1" class="radio-container"/>
+            <label for="q3v1">Video 1</label>
+        
+            <input type="radio" id="q3v2" name="Q3" value="2" class="radio-container"/>
+            <label for="q3v2">Video 2</label>
+        </div>
+    </fieldset>
+    </form>
+
+    <div class="navigation-buttons">
+        <button id="prev_button" onclick="prevPage()">PREV</button>
+        <p id="num_page"></p>
+        <button id="next_button" onclick="nextPage()">NEXT</button>
+    </div>
+
+
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <script>
+        videos_list = [
+            {
+                'username': ""
+            },
+            {
+                "name": "corgi",
+                "text_prompt": "A playful corgi dog with its mouth open and tongue out, looking excitedly at the camera, rendered in a sketch style.",
+                "original_video": "all_results/corgi/original_fps15.mp4",
+                "video1": "all_results/corgi/medm_fps15.mp4",
+                "video2": "all_results/corgi/ours_fps15.mp4",
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "gold-fish",
+                "text_prompt": "Brightly colored goldfish swim in clear blue waters, moving gracefully between underwater plants and rocks, in a vintage 1950s film style.",
+                "original_video": "all_results/gold-fish/original_fps15.mp4",
+                "video1": "all_results/gold-fish/ours_fps15.mp4",
+                "video2": "all_results/gold-fish/codef_fps15.mp4",
+                "selection": ["gold-fish1", "gold-fish2"],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "truck",
+                "text_prompt": "Friends enjoying a road trip in a red van on a country road, presented in a black and white old movie style.",
+                "original_video": "all_results/truck/original_fps15.mp4",
+                "video1": "all_results/truck/ours_fps15.mp4",
+                "video2": "all_results/truck/hashing_video_fps15.mp4",
+                "selection": ["truck1", "truck2"],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+        ]
+
+        function prevPage() {
+            // Add functionality for previous page
+            console.log('Previous page');
+            if (changePage(now)) {
+                now -= 1;
+                renderVideos(now);
+                resetRadioStatus(now);
+            } else {
+                alert("Cannot be empty!!!!");
+            }
+            
+        }
+
+        function nextPage() {
+            // Add functionality for next page
+            console.log('Next page');
+            if (changePage(now)) {
+                now += 1;
+                if(now === videos_list.length) {
+                    console.log(videos_list)
+                    $.ajax({
+                        // url為Google Form按下submit的action
+                        url: "https://docs.google.com/forms/d/1_YL4wIy6iHNF_XxJoVCHBhVZCZCO2GT02UvMvOYmApg/formResponse",
+                        crossDomain: true,//解決跨網域CORS的問題
+                        data: {// entry.xxxxx 這些需要填寫您表單裡面的值，與其相互對應
+                            "entry.2125490581": videos_list[1]["Q1"],
+                            "entry.2080099033": videos_list[1]["Q2"],
+                            "entry.787853927": videos_list[1]["Q3"],
+                        },
+                        type: "POST", //因為是要進行insert的動作，故事用POST
+                        dataType: "JSONP",
+                        complete: function () {
+                            //最後跳轉到感謝的頁面
+                            // window.location.replace("thank.html");
+                        }
+                        });
+                } else {
+                    renderVideos(now);
+                    resetRadioStatus(now);
+                }
+                
+            } else {
+                alert("Cannot be empty!!!!");
+            }
+        }
+
+        function changePage(now) {
+            if (now == 0) {
+                username = document.getElementById("username");
+                if (username.value == "") {
+                    return false;
+                }
+                videos_list[0]['username'] = username.value;
+                return true;
+            }
+
+            let q1 = document.querySelector( 'input[name="Q1"]:checked');   
+            let q2 = document.querySelector( 'input[name="Q2"]:checked');   
+            let q3 = document.querySelector( 'input[name="Q3"]:checked'); 
+            
+            if (q1!=null && q2!=null && q3!=null) {
+                videos_list[now]['Q1'] = q1.value;
+                videos_list[now]['Q2'] = q2.value;
+                videos_list[now]['Q3'] = q3.value;
+                return true
+            } else {
+                return false
+            }
+
+            console.log(now, q1, q2, q3)
+        }
+
+        function resetRadioStatus(now) {
+            let q1 = document.querySelector( 'input[name="Q1"]:checked');   
+            let q2 = document.querySelector( 'input[name="Q2"]:checked');   
+            let q3 = document.querySelector( 'input[name="Q3"]:checked');
+
+            if(videos_list[now]['Q1'] === null) {
+                document.getElementById("q1v1").checked = false;
+                document.getElementById("q1v2").checked = false;
+            } else if(videos_list[now]['Q1'] === "1") {
+                document.getElementById("q1v2").checked = false;
+                document.getElementById("q1v1").checked = true;
+            }  else if (videos_list[now]['Q1'] === "2") {
+                document.getElementById("q1v1").checked = false;
+                document.getElementById("q1v2").checked = true;
+            }
+
+            if(videos_list[now]['Q2'] === null) {
+                document.getElementById("q2v1").checked = false;
+                document.getElementById("q2v2").checked = false;
+            } else if(videos_list[now]['Q2'] === "1") {
+                document.getElementById("q2v2").checked = false;
+                document.getElementById("q2v1").checked = true;
+            }  else if (videos_list[now]['Q2'] === "2") {
+                document.getElementById("q2v1").checked = false;
+                document.getElementById("q2v2").checked = true;
+            }
+
+            if(videos_list[now]['Q3'] === null) {
+                document.getElementById("q3v1").checked = false;
+                document.getElementById("q3v2").checked = false;
+            } else if(videos_list[now]['Q3'] === "1") {
+                document.getElementById("q3v2").checked = false;
+                document.getElementById("q3v1").checked = true;
+            }  else if (videos_list[now]['Q3'] === "2") {
+                document.getElementById("q3v1").checked = false;
+                document.getElementById("q3v2").checked = true;
+            }
+        }
+
+        function renderVideos(now) {
+            if(now == 0) {
+                let txt = `
+                    <br><br><br><br><br><br>
+                    <h1>User Study</h1>
+                    <form style="text-align: center;" align=“center”>
+                        <fieldset>
+                            <legend>Username</legend>
+                            <input type="text" id="username" value="">
+                        </fieldset>
+                    </form>
+                `;
+                document.getElementById("videos").innerHTML = txt;
+            } else {
+                let txt = `
+                    <div>
+                        <label for="${videos_list[now]["name"]}">
+                            <span>Original Video</span>
+                            <video class="original-video" id="video1" width="256" controls loop autoplay>
+                                <source src="${videos_list[now]['original_video']}" type="video/mp4" />
+                            </video>
+                        </label>
+                        <div>
+                            <span>Video 1</span>
+                            <video width="256" controls loop autoplay>
+                                <source src="${videos_list[now]['video1']}" type="video/mp4" />
+                            </video>
+                            <span>Video 2</span>
+                            <video width="256" controls loop autoplay>
+                                <source src="${videos_list[now]['video2']}" type="video/mp4" />
+                            </video>
+                        </div>
+                    </div>
+                `;
+                document.getElementById("text_prompt").innerHTML = `Text prompt: ${videos_list[now]['text_prompt']}`
+                document.getElementById("videos").innerHTML = txt;
+                document.getElementById("num_page").innerHTML = `${now}/${videos_list.length}`;
+            }
+            if(now == 0) {
+                document.getElementById("question").style.visibility="hidden";
+            } else {
+                document.getElementById("question").style.visibility="visible";
+            }
+
+            if(now == 0 || now == 1) {
+                document.getElementById("prev_button").style.visibility="hidden";
+            } else {
+                document.getElementById("prev_button").style.visibility="visible";
+            }
+
+            if(now == videos_list.length-1) {
+                document.getElementById("next_button").innerHTML = `SUBMIT`;
+            } else {
+                document.getElementById("next_button").innerHTML = `NEXT`;
+            }
+        }
+
+        now = 0
+        renderVideos(now);
+        resetRadioStatus(now);
+    </script>
+</body>
+</html>
