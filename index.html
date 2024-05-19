@@ -50,7 +50,7 @@
     <form>
     <fieldset id="question" style="width:600px;">
         <legend><b id="text_prompt"></b></legend>
-        <p>Q1. Question1</p>
+        <p>Q1. Which video has better temporal consistency?</p>
         <div>
             <input type="radio" id="q1v1" name="Q1" value="1" class="radio-container"/>
             <label for="q1v1">Video 1</label>
@@ -58,7 +58,7 @@
             <input type="radio" id="q1v2" name="Q1" value="2" class="radio-container"/>
             <label for="q1v2">Video 2</label>
         </div>
-        <p>Q2. Question2</p>
+        <p>Q2. Which video aligns better with the text prompt?</p>
         <div>
             <input type="radio" id="q2v1" name="Q2" value="1" class="radio-container"/>
             <label for="q2v1">Video 1</label>
@@ -66,7 +66,7 @@
             <input type="radio" id="q2v2" name="Q2" value="2" class="radio-container"/>
             <label for="q2v2">Video 2</label>
         </div>
-        <p>Q3. Question3</p>
+        <p>Q3. Which video has better overall quality?</p>
         <div>
             <input type="radio" id="q3v1" name="Q3" value="1" class="radio-container"/>
             <label for="q3v1">Video 1</label>
@@ -148,8 +148,7 @@
             // Add functionality for next page
             console.log('Next page');
             if (changePage(now)) {
-                now += 1;
-                if(now === videos_list.length) {
+                if(now === videos_list.length-1) {
                     console.log(videos_list)
                     $.ajax({
                         // url為Google Form按下submit的action
@@ -168,6 +167,7 @@
                         }
                         });
                 } else {
+                    now += 1;
                     renderVideos(now);
                     resetRadioStatus(now);
                 }
@@ -190,7 +190,7 @@
             let q1 = document.querySelector( 'input[name="Q1"]:checked');   
             let q2 = document.querySelector( 'input[name="Q2"]:checked');   
             let q3 = document.querySelector( 'input[name="Q3"]:checked'); 
-            
+
             if (q1!=null && q2!=null && q3!=null) {
                 videos_list[now]['Q1'] = q1.value;
                 videos_list[now]['Q2'] = q2.value;
@@ -278,7 +278,7 @@
                 `;
                 document.getElementById("text_prompt").innerHTML = `Text prompt: ${videos_list[now]['text_prompt']}`
                 document.getElementById("videos").innerHTML = txt;
-                document.getElementById("num_page").innerHTML = `${now}/${videos_list.length}`;
+                document.getElementById("num_page").innerHTML = `${now}/${videos_list.length-1}`;
             }
             if(now == 0) {
                 document.getElementById("question").style.visibility="hidden";
