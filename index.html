@@ -149,23 +149,13 @@
             console.log('Next page');
             if (changePage(now)) {
                 if(now === videos_list.length-1) {
-                    console.log(videos_list)
-                    $.ajax({
-                        // url為Google Form按下submit的action
-                        url: "https://docs.google.com/forms/d/1_YL4wIy6iHNF_XxJoVCHBhVZCZCO2GT02UvMvOYmApg/formResponse",
-                        crossDomain: true,//解決跨網域CORS的問題
-                        data: {// entry.xxxxx 這些需要填寫您表單裡面的值，與其相互對應
-                            "entry.2125490581": videos_list[1]["Q1"],
-                            "entry.2080099033": videos_list[1]["Q2"],
-                            "entry.787853927": videos_list[1]["Q3"],
-                        },
-                        type: "POST", //因為是要進行insert的動作，故事用POST
-                        dataType: "JSONP",
-                        complete: function () {
-                            //最後跳轉到感謝的頁面
-                            // window.location.replace("thank.html");
-                        }
-                        });
+                    MySubmit = "https://docs.google.com/forms/d/e/1FAIpQLSeE43m-Q7paP_JNDVnejGsWlpgw1rDXXjO9s0MObWqPYaK9Ow/formResponse?";
+                    MySubmit += "entry.1926733457=" + videos_list[0]["username"] + "&";
+                    MySubmit += "entry.2080099033=" + videos_list[1]["Q1"] + "&";
+                    MySubmit += "entry.2125490581=" + videos_list[1]["Q2"] + "&";
+                    MySubmit += "entry.787853927=" + videos_list[1]["Q3"] + "&";
+                    MySubmit += "submit=Submit";
+                    window.open(MySubmit);
                 } else {
                     now += 1;
                     renderVideos(now);
@@ -184,6 +174,7 @@
                     return false;
                 }
                 videos_list[0]['username'] = username.value;
+                console.log(videos_list[0]['username'])
                 return true;
             }
 
