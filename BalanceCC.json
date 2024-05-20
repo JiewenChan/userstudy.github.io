@@ -1,0 +1,3011 @@
+[
+    {
+        "Video Name": "blackswan",
+        "Video Type": "Animal",
+        "Original Prompt": "A black swan swimming in a pond with lush greenery in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A black swan swimming in a pond with lush greenery in the background, oil painting style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A majestic flamingo swimming in a pond with lush greenery in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A black swan swimming in a crystal clear lake surrounded by snow-capped mountains.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A duck made of origami floating on a pond under a cherry blossom tree in full bloom.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "butterfly",
+        "Video Type": "Animal",
+        "Original Prompt": "A butterfly with black and orange wings perches on a plant amidst a field of golden grass.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A butterfly with black and orange wings perches on a plant amidst a field of golden grass, portrayed in a neon lights style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A dragonfly with shimmering wings perches on a plant amidst a field of golden grass.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A butterfly with black and orange wings perches on a plant amidst a mystic forest with glowing flora.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A butterfly made of origami with intricate paper designs perches on a metallic plant amidst a cyberpunk cityscape.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "camel",
+        "Video Type": "Animal",
+        "Original Prompt": "A camel walking in an enclosure with a wooden fence and greenery in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A camel walking in an enclosure with a wooden fence and greenery in the background, Minecraft world style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A towering giraffe walking in an enclosure with a wooden fence and greenery in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A camel walking in a vast desert with dunes stretching to the horizon.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A zebra with patterns of bright neon stripes, walking in a moonlit savannah with glowing plants.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "cat",
+        "Video Type": "Animal",
+        "Original Prompt": "A grey tabby cat sitting on a wooden platform with a blue sky in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A grey tabby cat sitting on a wooden platform with a blue sky in the background, painted in watercolor style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A brown dog sitting on a wooden platform with a blue sky in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A grey tabby cat sitting on a city rooftop with skyscrapers in the distance.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A snow leopard with vibrant green eyes sitting on an icy mountain peak, with snowflakes gently falling around.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 1,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "coral-reef",
+        "Video Type": "Animal",
+        "Original Prompt": "Bright yellow fish with blue stripes swim among coral and anemones in a vibrant underwater scene.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Bright yellow fish with blue stripes swim among coral and anemones in a vibrant underwater scene, depicted in a Van Gogh style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Bright red seahorses glide among coral and anemones in a vibrant underwater scene.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Bright yellow fish with blue stripes swim among luminous jellyfish in the deep blue ocean.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Origami-styled turtles glide among coral made of crystal in a magical underwater world filled with floating islands.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "corgi",
+        "Video Type": "Animal",
+        "Original Prompt": "A playful corgi dog with its mouth open and tongue out, looking excitedly at the camera.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A playful corgi dog with its mouth open and tongue out, looking excitedly at the camera, rendered in a sketch style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A playful golden retriever with its mouth open and tongue out, looking excitedly at the camera.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A playful corgi dog with its mouth open and tongue out, standing in a sunny park with children playing in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A fantasy dragon with fiery eyes and smoke coming out of its nostrils, perched on top of a rocky cliff, thunderstorm behind",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "cows",
+        "Video Type": "Animal",
+        "Original Prompt": "A brown and white cow grazing in a field.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A brown and white cow grazing in a field, in 8-Bit Pixel Art World.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A brown and white horse grazing in a field.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A brown and white cow grazing in a snowy field.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A mechanical robot cow with glowing eyes in a futuristic city park, with holographic trees and data stream.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "dog-agility",
+        "Video Type": "Animal",
+        "Original Prompt": "A dog swiftly moving through agility poles in a grassy field with a fence in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A dog swiftly moving through agility poles in a grassy field with a fence in the background, Van Gogh Starry Night style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A cat nimbly maneuvering through agility poles in a grassy field with a fence in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A dog swiftly moving through agility poles set against a backdrop of a mystical enchanted forest.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A rabbit made of origami hopping through agility poles in a meadow under a cherry blossom tree in full bloom.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "elephant",
+        "Video Type": "Animal",
+        "Original Prompt": "An elephant walks amidst rocks, spraying dust onto its back under the shade of a tree, with a structure in the distance.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "An elephant walks amidst rocks, spraying dust onto its back under the shade of a tree, with a structure in the distance, old movies style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A rhinoceros walks amidst rocks, under the shade of a tree, with a structure in the distance.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "An elephant walks amidst icy terrains, spraying snow onto its back under the shade of a pine tree, with snow-capped mountains in the distance.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A lion made of clay walks amidst desert dunes, under the shade of a palm tree, with ancient pyramids in the distance.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "flamingo",
+        "Video Type": "Animal",
+        "Original Prompt": "Flamingos with vibrant pink legs and beaks wade in water near rocks, searching for food, with a tree trunk in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Flamingos with vibrant pink legs and beaks wade in water near rocks, searching for food, with a tree trunk in the background, Zen Garden Ink style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Herons with long legs and beaks wade in water near rocks, searching for food, with a tree trunk in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Flamingos with vibrant pink legs and beaks wade in a crystal-clear lagoon near tropical rocks, searching for food, with palm trees in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Dragons with vibrant scales wade in a lava lake near obsidian rocks, searching for precious gems, with a volcano erupting in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "funny-cat",
+        "Video Type": "Animal",
+        "Original Prompt": "A cat with a red bandana sits in a room with a beige background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A cat with a red bandana sits in a room with a beige background, American Abstract Art style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A white tiger with a red bandana sits in a room with a beige background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A cat with a red bandana sits in a room with a backdrop of a serene ocean sunset.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A cat made of origami with a colorful paper bandana sits in a room with walls resembling a Van Gogh painting.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "gold-fish",
+        "Video Type": "Animal",
+        "Original Prompt": "Brightly colored goldfish swim in clear blue waters, moving gracefully between underwater plants and rocks.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Brightly colored goldfish swim in clear blue waters, moving gracefully between underwater plants and rocks, in a vintage 1950s film style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Brightly colored koi fish swim in clear blue waters, moving gracefully between underwater plants and rocks.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Brightly colored goldfish swim in a neon-lit futuristic aquarium, moving gracefully between holographic plants and metallic rocks.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Cybernetic goldfish with glowing fins swim in a digital matrix, moving gracefully between neon-lit code strands and floating data cubes.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "jellyfish",
+        "Video Type": "Animal",
+        "Original Prompt": "A translucent jellyfish swims in the deep blue ocean with its long tentacles trailing behind.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A translucent jellyfish swims in the deep blue ocean with its long tentacles trailing behind, oil painting style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A luminescent anglerfish swims in the deep blue ocean with its eerie light leading the way.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A translucent jellyfish floats gracefully in a crystal-clear freshwater lake surrounded by green lily pads.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A jellyfish made of glowing neon lights hovers in a cyberpunk cityscape with neon signs reflecting in puddles below.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "mallard-water",
+        "Video Type": "Animal",
+        "Original Prompt": "A duck floats gently on the water, creating ripples as it moves.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A duck floats gently on the water, creating ripples as it moves, in a serene black and white film style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A swan with a smooth white feather coat floats gently on the water, creating ripples as it moves.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A duck floats gently on a surreal lavender-colored pond, with floating lily pads and luminescent fish swimming below.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A robotic duck with metallic feathers floats gently on a digital river, surrounded by holographic plants and pixelated fish.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "parrot-eat",
+        "Video Type": "Animal",
+        "Original Prompt": "A vibrant yellow budgie perches on a hand, pecking at the seeds offered, while surrounded by a sunny outdoor setting.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A vibrant yellow budgie perches on a hand, pecking at the seeds offered, while surrounded by a sunny outdoor setting, Comic Book Art style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A vibrant red cardinal perches on a hand, pecking at the seeds offered, while surrounded by a sunny outdoor setting.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A vibrant yellow budgie perches on a hand inside a vintage birdcage with intricate patterns.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A golden robotic budgie perches on a metal hand, scanning the nuts and bolts offered, set against a steampunk backdrop.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "pigs",
+        "Video Type": "Animal",
+        "Original Prompt": "A large black pig and a smaller brown piglet are seen in a dirt-covered area, with the piglet standing close to the larger pig.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A large black pig and a smaller brown piglet are seen in a dirt-covered area, with the piglet standing close to the larger pig, all captured in a nostalgic sepia tone.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A large black cow and a smaller brown calf are seen in a dirt-covered area, with the calf standing close to the larger cow.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A large black pig and a smaller brown piglet are seen in a vibrant green meadow, with the piglet standing close to the larger pig, and colorful butterflies fluttering around.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A large robotic pig and a smaller cybernetic piglet roam an alien landscape with floating rocks and neon plants.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "rabbit-leaf",
+        "Video Type": "Animal",
+        "Original Prompt": "A white rabbit holding a yellow leaf in its mouth, surrounded by autumnal decor.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A white rabbit holding a yellow leaf in its mouth, surrounded by autumnal decor, in Cel-Shaded Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A plush brown toy rabbit holding a yellow leaf in its mouth, surrounded by autumnal decor.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A white rabbit with a yellow leaf in its mouth, sitting in a pumpkin patch on a crisp autumn day.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A clay-animated rabbit holding a leaf made of stitched fabric, set in a whimsical, hand-crafted autumnal fairy tale scene.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },    
+    {
+        "Video Name": "rabbit-watermelon",
+        "Video Type": "Animal",
+        "Original Prompt": "A black and white rabbit is nibbling on a slice of watermelon with delight, sitting on a surface with a gray background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A black and white rabbit, is nibbling on a slice of watermelon with delight, sitting on a canvas with a gray background, painted in an oil painting style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A black and white rabbit is nibbling on a big hamburger with delight, sitting on a surface with a gray background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A black and white rabbit is nibbling on a slice of watermelon with delight, sitting on a meadow with colorful flowers and butterflies fluttering around.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A magical glowing black and white rabbit, with shimmering fur, is nibbling on a slice of ethereal watermelon that emits a soft light, sitting in a dreamy celestial landscape with twinkling stars.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "rhino",
+        "Video Type": "Animal",
+        "Original Prompt": "A robust rhino is strolling through its enclosure, surrounded by rocks, and trees.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A robust rhino is strolling through its enclosure, surrounded by rocks, and trees, in an art notebook.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A robust elephant is strolling through its enclosure, surrounded by rocks, and trees.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A robust rhino is strolling on a beach, with waves crashing nearby, palm trees in the distance, and seagulls flying overhead.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A shimmering, mystical rhino made of crystal and glowing gemstones strides confidently through an enchanted forest, surrounded by glowing mushrooms, magical creatures, and a sky painted with northern lights.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "seal",
+        "Video Type": "Animal",
+        "Original Prompt": "A seal pup resting on a sandy beach.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "The seal pup resting on a sandy beach, rendered in Van Gogh's swirling starry night style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A grey kitten lounging on a sandy beach.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A seal pup resting on an iceberg, surrounded by frigid arctic waters.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An animated, friendly seal character lounging on a tropical beach, with cartoonish palm trees and a treasure chest nearby.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "shark-ocean",
+        "Video Type": "Animal",
+        "Original Prompt": "A sleek shark glides through clear waters, accompanied by a myriad of other fish, illuminated by the shimmering light from above.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A sleek shark glides through clear waters, accompanied by a myriad of other fish, illuminated by the shimmering light from above, rendered in a dreamy pastel style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A sleek dolphin glides through clear waters, accompanied by a myriad of other fish, illuminated by the shimmering light from above.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A sleek shark glides through a sunken pirate ship, accompanied by a myriad of other fish and surrounded by hidden treasures.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A mechanical shark, constructed of brass and gears, glides through an underwater steampunk city, accompanied by robotic fish and illuminated by the glowing light from lanterns.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "sheep",
+        "Video Type": "Animal",
+        "Original Prompt": "Sheep in a pasture.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Illustration of sheep on parchment.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Sheep, calves, and squirrels in a flowered meadow.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Sheep on a beach.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Winged and glowing calves in a moonlit meadow.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "tiger",
+        "Video Type": "Animal",
+        "Original Prompt": "Tiger in a cage.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Illustration of a tiger in a wooden enclosure.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Peacock in a cage.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Tiger in a jungle setting.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Winged tiger in a floating cage among clouds.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "turtle",
+        "Video Type": "Animal",
+        "Original Prompt": "A serene sea turtle gracefully swims near a coral reef, with vibrant fish playfully circling around it.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A serene sea turtle gracefully swims near a coral reef, with vibrant fish playfully circling around it, rendered in a watercolor painting style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A serene manta ray gracefully swims near a coral reef, with vibrant fish playfully circling around it.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A serene sea turtle gracefully swims in a vast, open sky, with vibrant fish playfully circling around it against the backdrop of a setting sun.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A mystical sea dragon made of crystalline structures gracefully swims near a glowing coral reef, with luminescent fish playfully circling around it, showcasing the ethereal beauty of an otherworldly marine ecosystem.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "two-swan",
+        "Video Type": "Animal",
+        "Original Prompt": "Two elegant swans stand by a tranquil pond during a golden sunset, the warm hues reflecting on the water.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Two elegant swans stand by a tranquil pond during a golden sunset, the warm hues reflecting on the water, rendered in a soft pastel drawing style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Two elegant flamingos stand by a tranquil pond during a golden sunset, the warm hues reflecting on the water.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Two elegant swans stand by a pristine mountain lake during a golden sunset, with tall pine trees in the background and the warm hues reflecting on the water.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Two ethereal phoenixes with fiery plumage stand by a molten lava lake during a vivid, glowing sunset, with volcanic eruptions in the distance creating a dramatic backdrop.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "wolf",
+        "Video Type": "Animal",
+        "Original Prompt": "A gray wolf stands alert in a forested area, its gaze fixed intently ahead.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A gray wolf stands alert in a forested area, its gaze fixed intently ahead, rendered in Van Gogh style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A golden retriever stands alert in a forested area, its gaze fixed intently ahead.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A gray wolf stands alert on a snowy mountain peak, with vast ranges stretching out in the distance.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A wolf made of neon lights stands alert in a futuristic cyberpunk city, surrounded by holograms and floating cars.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+
+    {
+        "Video Name": "bmx-bumps",
+        "Video Type": "Human",
+        "Original Prompt": "A BMX rider in full gear maneuvering his bike over a dirt ramp in a BMX track.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A BMX rider in full gear maneuvering his bike over a dirt ramp in a BMX track, rendered in old movie style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A skateboarder in full gear maneuvering his skateboard over a dirt ramp in a BMX track.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A BMX rider in full gear maneuvering his bike over a dirt ramp in a night-time cityscape with skyscrapers in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A polar bear BMX rider in full gear maneuvering his bike over a ramp in a futuristic cyberpunk city, surrounded by neon billboards.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 3,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "boxing-fisheye",
+        "Video Type": "Human",
+        "Original Prompt": "Two boxers sparring in an outdoor ring during the evening, with a coach supervising and city buildings and trees in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Two boxers sparring in an outdoor ring during the evening, with a coach supervising and city buildings and trees in the background, rendered in sepia-toned photo style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Two martial artists sparring in an outdoor ring during the evening, with a coach supervising and city buildings and trees in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Two boxers sparring in an outdoor ring set in a mystical enchanted forest, with a coach supervising.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Two gladiators made of origami fighting in an arena set in ancient Rome, with a roaring crowd and grand structures in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 3,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "breakdance-flare",
+        "Video Type": "Human",
+        "Original Prompt": "A man performing a breakdance move on a paved street, with a stone wall adorned with flower boxes in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man performing a breakdance move on a paved street, with a stone wall adorned with flower boxes in the background, in Stencil Art style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A robot performing a breakdance move on a paved street, with a stone wall adorned with flower boxes in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A teddy bear performing a breakdance move on a floating platform set against the backdrop of a futuristic city skyline.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A ballerina made of origami gracefully dancing on a cobblestone street with lanterns and willow trees framing the scene.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "breakdance",
+        "Video Type": "Human",
+        "Original Prompt": "A performer executing a breakdance on a city street with many audiences watching and historical buildings in the background.",
+    
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A performer executing a breakdance on a city street, watched by many audiences, Comic Book Art style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Ironman executing a breakdance on a city street with many audiences of admirers and historical buildings lining the road.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A performer executing a breakdance on a silvery lunar surface with astronauts as audience, Earth casting a glow from the far horizon.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An origami-crafted samurai performing a breakdance in an ancient Japanese garden, surrounded by mythical creatures with cherry blossoms in full bloom.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "dance-jump",
+        "Video Type": "Human",
+        "Original Prompt": "A girl twirling in a skirt by a stone fountain.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A girl dancing in a light-dappled glade, rendered in Pixar-Style Animation.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A porcelain ballerina figurine spinning atop a music box next to a stone fountain.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A girl in a flowing dress performing a pirouette in a grand ballroom.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An animated character resembling a girl in a tutu dancing in a moonlit fairy forest.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "dance-twirl",
+        "Video Type": "Human",
+        "Original Prompt": "A dancer in a blue dress performs on an asphalt surface, surrounded by a diverse audience.",
+    
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A dancer in a blue dress performs on an asphalt surface, Claymation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A graceful peacock in vibrant colors dances on an asphalt surface, surrounded by a diverse audience.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A woman dancing solo on a reflective stage under the spotlight, with no audience in sight.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A futuristic hologram of a dancer performs in a neon-lit alley of a cyberpunk cityscape, with digital spectators.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "hike",
+        "Video Type": "Human",
+        "Original Prompt": "A man with a backpack hikes on a rocky terrain, surrounded by tall, rugged mountains and scattered boulders.",
+    
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man with a backpack hikes on a rocky terrain, captured in a vintage sepia tone, adding an old-world charm to the scene.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A robot with a backpack hikes on a rocky terrain, surrounded by tall, rugged mountains and scattered boulders.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A man with a backpack hikes on a lunar surface, surrounded by vast craters and the vastness of space.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An astronaut with a jetpack floats above a Martian landscape, with red rocky terrains and tall, alien-like mountains in the backdrop.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "hockey",
+        "Video Type": "Human",
+        "Original Prompt": "A man in sports gear plays inline hockey in an outdoor rink.",
+    
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man in sports gear plays inline hockey in an outdoor rink, in black and white style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A polar bear in sports gear plays inline hockey in an outdoor court. ",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A man in sports gear plays inline hockey on a floating platform surrounded by a serene lake and mountains in the backdrop.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An alien with sports gear plays inline hockey on a floating platform in outer space, with distant galaxies and nebulae as a backdrop.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "horsejump-high",
+        "Video Type": "Human",
+        "Original Prompt": "A rider on a horse jumping over an obstacle in an equestrian competition with a clear sky and other obstacles in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A rider on a horse jumping over an obstacle in an equestrian competition, rendered in Van Gogh style with swirling skies and vibrant colors.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A knight in shining armor on a unicorn jumping over an obstacle in a magical realm.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A rider on a horse jumping over an obstacle with a backdrop of a vast, tranquil ocean under a sunset.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A medieval knight on a dragon jumping over a floating obstacle, set against a backdrop of a futuristic city skyline.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "judo",
+        "Video Type": "Human",
+        "Original Prompt": "Two martial artists practicing a technique in a dojo with mats and equipment in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Two martial artists practicing a technique in a dojo, illustrated in a classic ink wash painting style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Two ancient samurai warriors practicing a technique in a traditional Japanese dojo.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Two martial artists practicing a technique atop a mountain peak with a breathtaking sunrise in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Two Shaolin monks practicing a technique in a tranquil bamboo forest, rendered in origami style.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "kite-surf",
+        "Video Type": "Human",
+        "Original Prompt": "A person kiteboarding on turquoise waters with a coastal cityscape and mountain in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A person kiteboarding on turquoise waters, illustrated in a vibrant pop art style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A person on a futuristic hoverboard soaring above turquoise waters with a coastal cityscape and mountain in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A person kiteboarding on turquoise waters with a magical floating city and auroras in the background.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A mythical angel kiteboarding on glowing waters with a futuristic city and colorful nebulas in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "koolshooters",
+        "Video Type": "Human",
+        "Original Prompt": "A young woman with red hair, looking upwards with a thoughtful expression, in a warmly lit environment.",
+        
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A young woman with red hair, looking upwards with a thoughtful expression, in a warmly lit environment, Minimalist and Abstract Animation.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A porcelain doll with red hair, looking upwards with a painted expression, in a warmly lit environment.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A young woman with red hair, looking upwards with a thoughtful expression, set against the backdrop of a moonlit forest.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A silhouette made of stars shaped like a young woman, looking upwards with a shimmering gaze, floating in the cosmos amidst galaxies and nebulas.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "lab-coat",
+        "Video Type": "Human",
+        "Original Prompt": "Three individuals in white lab coats and safety goggles standing on a grass field with a chain-link fence in the background.",
+        
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Three individuals in white lab coats and safety goggles standing on a grass field with a chain-link fence in the background, Traditional Sci-Fi Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Three robots with a metallic sheen, designed with human-like features, standing on a grass field with a chain-link fence in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Three individuals in white lab coats and safety goggles standing in a futuristic lab with holographic screens and high-tech equipment around them.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Three cybernetic female robots glowing with neon circuits, standing in a post-apocalyptic wasteland with ruined buildings casting shadows in the distance.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "longboard",
+        "Video Type": "Human",
+        "Original Prompt": "A person in a yellow shirt and blue jeans riding a longboard on a pathway with a cyclist in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A person in a yellow shirt and blue jeans riding a longboard on a pathway with a cyclist in the background, Gothic Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A polar bear in a yellow shirt and blue jeans riding a longboard on a pathway with a cyclist in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A person in a yellow shirt and blue jeans riding a longboard on a golden bridge with a sunset in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A teddy bear in a yellow shirt and blue jeans riding a longboard on a rainbow bridge under a starry night sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "lucia",
+        "Video Type": "Human",
+        "Original Prompt": "A woman in a black dress and yellow bag walking in a park with greenery and a tree in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A woman in a black dress and yellow bag walking in a park with greenery and a tree in the background, rendered in a Van Gogh Starry Night style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A female angel in a flowing gown walking in a park with greenery and a tree in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A woman in a black dress and yellow bag walking on a sandy beach with the ocean waves in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A woman in a galaxy-themed dress and a luminescent bag walking in an alien forest with bioluminescent plants.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "makeup",
+        "Video Type": "Human",
+        "Original Prompt": "A woman with a towel wrapped around her head applying makeup with a brush.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A woman with a towel wrapped around her head applying makeup with a brush, Pixar-Style Animation style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A woman with a wreath of flowers around her head applying makeup with a brush.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A woman with a towel wrapped around her head applying makeup with a brush, set against a backdrop of a serene beach during sunset.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A woman made of origami with a garland of neon lights around her head, applying makeup with a brush made of neon lights, set in a cyberpunk cityscape.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "man-skiing",
+        "Video Type": "Human",
+        "Original Prompt": "A snowboarder in a yellow outfit swiftly descending a snowy slope with a clear blue sky in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A snowboarder in a yellow outfit swiftly descending a snowy slope with a clear blue sky in the background, presented in an old movie style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A skier in a red outfit swiftly descending a snowy slope with a clear blue sky in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A snowboarder in a yellow outfit swiftly descending a sandy dune with a clear desert sky in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An astronaut on a hoverboard descends a lunar hill, Earth rising in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "man-surfing",
+        "Video Type": "Human",
+        "Original Prompt": "A surfer in a purple shirt skillfully riding a wave, with water droplets surrounding him and the vast ocean in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A surfer in a purple shirt skillfully riding a wave, with water droplets surrounding him and the vast ocean in the background, presented in a retro 80's style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A surfer in a green shirt skillfully riding a wave, with water droplets surrounding him and the vast ocean in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A surfer in a purple shirt skillfully riding a wave in a giant fish tank with colorful fish swimming around.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A surfer made of glass in a shimmering outfit riding a wave of liquid silver under a neon lit sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "mbike-trick",
+        "Video Type": "Human",
+        "Original Prompt": "A motorcyclist wearing a white shirt and helmet, creating a thick cloud of smoke on a tarmac with skid marks.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A motorcyclist wearing a white shirt and helmet, creating a thick cloud of smoke on a tarmac with skid marks, depicted in a gritty black and white film noir style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A motorcyclist wearing a red shirt and helmet, creating a thick cloud of smoke on a tarmac with skid marks. ",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A motorcyclist wearing a white shirt and helmet on a glowing neon grid platform with a digital cyberspace environment around.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A robot motorcyclist made of chrome and lights on a floating platform above a futuristic city with flying cars and towering skyscrapers.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "moonwalk",
+        "Video Type": "Human",
+        "Original Prompt": "A man in a white shirt and black pants, wearing gray sneakers, performing the moonwalk dance move on a wooden floor with a dark background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man in a white shirt and black pants, wearing gray sneakers, performing the moonwalk dance move on a wooden floor, depicted in a vibrant 80s disco style with colorful lights and reflections.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A man in a glittering gold jacket and black pants, wearing gray sneakers, performing the moonwalk dance move on a wooden floor with a dark background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A man in a white shirt and black pants, wearing gray sneakers, performing the moonwalk dance move on a glowing neon grid with a digital cyberspace environment around.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A magician wearing a cloak performs the moonwalk dance in the world of 8-bit pixel-art background",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "motocross-bumps",
+        "Video Type": "Human",
+        "Original Prompt": "A motocross rider wearing a colorful jersey and helmet,jumps off a dirt ramp in a track surrounded by trees and delineated.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A motocross rider wearing a colorful jersey and helmet,jumps off a dirt ramp in a track, depicted in a comic book style with action lines and dynamic angles.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A motocross panda wearing a fiery red jersey and helmet,jumps off a dirt ramp in a track surrounded by trees and delineated.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A motocross rider wearing a colorful jersey and helmet,jumps off a dirt ramp in a track set against a surreal sunset sky with vivid colors and floating islands.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A futuristic motocross rider with illuminated armor, riding an anti-gravity bike,jumps off a glowing neon ramp in a track located on a floating island above a neon-lit city.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "motorbike",
+        "Video Type": "Human",
+        "Original Prompt": "Two motorcyclists on an orange motorcycle riding on a road with a forest and mountains in the background, beside a potted plant with yellow flowers.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Two motorcyclists on an orange motorcycle riding on a road, Photorealistic CGI and Traditional Animation style, with a glowing trail behind them.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Two astronauts riding a futuristic hoverbike on a road with a forest and mountains in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Two motorcyclists on an orange motorcycle riding on a road set against the backdrop of a vast, barren landscape on Mars.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Two riders made of origami on a paper horse, galloping on a road amidst an enchanted forest under a pastel-colored sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "parkour",
+        "Video Type": "Human",
+        "Original Prompt": "A man performing parkour, jumping over barriers in an urban setting with modern buildings in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man performing parkour in a grayscale setting, leaping over barriers amidst tall shadowy buildings.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A robot mimicking human movements, seamlessly executing parkour over barriers in an urban backdrop.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A man performing parkour in an ancient city with cobblestone streets and towering Gothic cathedrals.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A ninja in Claymation style swiftly navigating through a maze of floating islands in the sky, leaping and tumbling with agility.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "rollerblade",
+        "Video Type": "Human",
+        "Original Prompt": "A rollerblader performing a trick in front of a graffiti-covered wall.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A rollerblader performing a trick in front of a graffiti-covered wall, Chibi Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A skateboarder doing an ollie in front of a vibrant, spray-painted wall.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A rollerblader sliding along a ramp in an urban skate park with graffiti art.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A pixie with shimmering wings performing a trick in front of a graffiti-covered wall, at night, Fairy Tale Animation style.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "salad",
+        "Video Type": "Human",
+        "Original Prompt": "A chef is tossing a salad in a glass bowl.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A chef is tossing a salad in a glass bowl, with a dynamic anime-style animation.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A magician is conjuring colorful fruits into a glass bowl.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A astronaut is tossing a salad in a glass bowl.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An angel is mixing a bowl of planets, shining and colorful.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "snowboard",
+        "Video Type": "Human",
+        "Original Prompt": "A person snowboarding down a snowy slope with rocky terrain in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A person snowboarding down a snowy slope with rocky terrain in the background, in a sepia-toned style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Ironman soaring down a snowy slope with rocky terrain in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A person snowboarding on a dune in a vast desert with sand swirling around.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A teddy bear snowboarding down a neon-lit slope with a cyberpunk city skyline in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "smile",
+        "Video Type": "Human",
+        "Original Prompt": "A young woman with a gentle smile in a sleeveless top against a neutral background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A young woman with a gentle smile in a sleeveless top against a neutral background, Pixar-Style Animation style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A porcelain figurine of a young woman, with delicate features and a subtle smile, displayed against a neutral background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A young woman smiling in front of a sprawling cityscape at twilight, the horizon glowing with the lights of skyscrapers.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An animated character resembling a young woman, her smile radiating kindness, set in a hand-drawn animated scene of a cozy, enchanted forest glade.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "stir-fry",
+        "Video Type": "Human",
+        "Original Prompt": "Vegetables are being sautéed in a flaming wok.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Vegetables shimmering in a wok as if painted in a Minimalist and Abstract Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Colorful candies are being tossed in a cauldron with magical sparks.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Vegetables being sautéed in a flaming wok in a medieval castle kitchen.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Stirring a cauldron of glowing potions in an enchanted forest, rendered in a claymation style.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "suitguy",
+        "Video Type": "Human",
+        "Original Prompt": "A stern-looking man in a sharp suit and tie.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A stern-looking man in a sharp suit and tie, in Traditional Sci-Fi Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A werewolf in a sharp suit and tie.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A stern-looking man in a sharp suit and tie, in a grand castle hall.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An mecha warrior, background are fired ruins.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "swing",
+        "Video Type": "Human",
+        "Original Prompt": "A woman in casual attire swinging on a park swing.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A woman in casual attire swinging on a park swing, with an old movie film grain overlay.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A woman in casual attire swinging on a park swing, holding an antique lantern.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A woman in casual attire swinging on a swing, set against a backdrop of a mystical enchanted forest.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A woman made of origami in vintage attire swinging on a park swing, set against a neon-lit cyberpunk city background, holding a neon light saber.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "tennis",
+        "Video Type": "Human",
+        "Original Prompt": "A man playing tennis on a clay court.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man playing tennis on a clay court, in old movie style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A man playing badminton on a clay court, with a badminton racket.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A man playing tennis on a futuristic neon-lit court.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A man made of claymation playing table tennis on a clay court set against a backdrop of a bustling medieval marketplace with a wooden paddle.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "upside-down",
+        "Video Type": "Human",
+        "Original Prompt": "A man with sunglasses seated on an amusement park ride with a bright yellow framework.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man with sunglasses seated on an amusement park ride with a bright yellow framework, Traditional Chinese ink style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A teddy bear with sunglasses seated on an amusement park ride with a bright yellow framework.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A man with sunglasses seated on an amusement park ride floating in the vast expanse of outer space.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A teddy bear made of origami with sunglasses seated on a ride set against a backdrop of clouds.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 2,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "walking",
+        "Video Type": "Human",
+        "Original Prompt": "A man and a woman walking on a busy urban street with buildings and vehicles in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A man and a woman walking on a busy urban street with buildings and vehicles in the background, Minimalist and Abstract Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Two teddy bears walking on a busy urban street with buildings and vehicles in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A man and a woman walking on a cobblestone path in a quaint old village with stone cottages.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Two teddy bears made of origami walks on a busy urban street with buildings and vehicles in the background, Minimalist and Abstract Animation style.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 2,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "woman-dog",
+        "Video Type": "Human",
+        "Original Prompt": "A woman and her German Shepherd dog taking a selfie in an outdoor setting.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A woman and her German Shepherd dog taking a selfie in an outdoor setting, Pixar-Style Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A woman taking a selfie with a small dinausor in an outdoor setting.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A woman and her German Shepherd dog taking a selfie with the Northern Lights shimmering in the sky behind them.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A futuristic scene where a woman and a small dinausor take a selfie on Mars, with a rover in the background and the Earth visible in the sky, Pixar-Style Animation style.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "woman-drink",
+        "Video Type": "Human",
+        "Original Prompt": "A woman wearing a straw hat sips wine amidst a lavender field during golden hour.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A woman wearing a straw hat sips wine amidst a lavender field during golden hour, in Rotoscoping style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A robotic figure wearing a straw hat sips oil amidst a lavender field during golden hour.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A woman wearing a straw hat sips wine amidst a snowy landscape with pine trees during twilight.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A mythical faerie with butterfly wings sips nectar from a goblet amidst a glowing forest with bioluminescent plants during midnight.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "woman-running",
+        "Video Type": "Human",
+        "Original Prompt": "A woman in a pink jacket with a vest and earphones is jogging near a water body with a tall building in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A woman in a pink jacket with a vest and earphones is jogging near a water body with a tall building in the background, portrayed in an abstract painting style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A cyborg woman in a metallic armor with inbuilt headphones is jogging near a water body with a futuristic skyscraper in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A woman in a pink jacket with a vest and earphones is jogging amidst a desert landscape with ancient ruins in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A witch in a flowing cape with glowing earpieces is floating near a mystic lake with a floating castle in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    
+    {
+        "Video Name": "aurora",
+        "Video Type": "Landscape",
+        "Original Prompt": "The Northern Lights dance across the night sky above a silhouette of mountains.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "The Northern Lights displayed in an oil painting style, vibrant colors streaking across a textured night sky.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A dragon flying under the Northern Lights, casting a shadow over the snow-covered mountains.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "The Northern Lights illuminating the sky over an ancient, mystical forest.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An astronaut observing the Northern Lights from the surface of the moon, with the Earth rising in the horizon.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "autumn-road",
+        "Video Type": "Landscape",
+        "Original Prompt": "A curving road lined with autumn foliage.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A curving road lined with autumn foliage, portrayed in Van Gogh's impressionist style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A curving road lined with vibrant spring flowers.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A curving road lined, in winter, snowy.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A winding road in a luminous moonlit scene, flanked by alien flora.",
+                "Fantasy Level": 2
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "by-the-sea",
+        "Video Type": "Landscape",
+        "Original Prompt": "Rocks by a still water body with a mountain in the backdrop under an overcast sky.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Rocks by a still water body with a mountain in the backdrop under an overcast sky,  Studio Ghibli style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Crystalline ice formations by a frozen water body with a mountain in the backdrop under an overcast sky.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Rocks by a still water body with a mystical floating island in the sky backdrop, amidst a soft glow of sunset.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Luminous gemstones by the shores of a bioluminescent lake with an aurora borealis in the backdrop in a starry night scene.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "city-at-sunset",
+        "Video Type": "Landscape",
+        "Original Prompt": "Traffic on a city street at sunset, reflecting the golden light.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Traffic on a city street at sunset, reflecting the golden light, Chibi Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Traffic on a city street at sunset, with lots of vintage bicycles, reflecting the golden light.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "The traffic flows down winds through an ancient rainforest, with towering trees and hanging vines.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A futuristic scene where hovercars glide above a glass-bottomed bridge over a luminous cyberpunk cityscape.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "city-night",
+        "Video Type": "Landscape",
+        "Original Prompt": "A nighttime cityscape with bright streets and illuminated buildings.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "The cityscape bathed in Van Gogh's starry night with a swirl of colors over the illuminated streets.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Futuristic flying vehicles navigating above the city's vibrant, light-streaked avenues.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A cityscape with bright streets and illuminated buildings, in the daytime.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A cyberpunk metropolis with neon flora and digital wildlife under a pixelated twilight.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "cross-city",
+        "Video Type": "Landscape",
+        "Original Prompt": "An urban street flanked by buildings with the sun casting long shadows.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "The urban street cast in sepia tones, shadows lengthened in a vintage film style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "An urban street flanked by buildings with the sun casting long shadows, with horse-drawn carriages and pedestrians in Victorian attire.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "The city street with a towering medieval castle in the distance, its spires touching the sky.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A steam-punk landscape where the urban street is lined with brass structures and flying machines above.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 1,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "crossing",
+        "Video Type": "Landscape",
+        "Original Prompt": "Two individuals crossing a street at a railway intersection with buildings in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Two individuals crossing a street at a railway intersection, Studio Ghibli style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Two robots crossing a street at a railway intersection with buildings in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Two individuals crossing a street with a lively carnival procession in the background, complete with floats and costumed dancers.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Two animated characters from a classic video game crossing a pixelated street, with a digitalized cityscape in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "daisy",
+        "Video Type": "Landscape",
+        "Original Prompt": "A close-up of daisies with vibrant yellow centers and white petals.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A close-up of daisies portrayed with the swirling, vibrant strokes of an impressionist painting.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A close-up of exotic, luminous flowers, bioluminescent with hues of neon blue and green.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A close-up of daisies with vibrant yellow centers and white petals, at night, shimmering with magic dust.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Animated daisies softly glowing, nestled on a lunar landscape under a starry night sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "festival",
+        "Video Type": "Landscape",
+        "Original Prompt": "People in colorful costumes with elaborate masks at an outdoor festival.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Participants at a festival, rendered in vivid, dynamic comic book style illustrations.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Robotic figures in a sci-fi parade, with intricate mechanical masks and luminous attire.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "People in festive costumes with masks, celebrating in an ancient temple courtyard.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Animated characters from folklore, dancing in a surreal, floating island setting, high above the clouds.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "firework",
+        "Video Type": "Landscape",
+        "Original Prompt": "Fireworks illuminating the night sky with a dazzling display.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Fireworks, animated in the vibrant style of a Van Gogh painting.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A cluster of bright dandelion seeds dispersing across a twilight sky.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Fireworks erupting over an ancient cityscape with a backdrop of the northern lights.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Luminous jellyfish soaring through a starry sky, casting a glow over an otherworldly forest landscape.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "hot-air-ballon",
+        "Video Type": "Landscape",
+        "Original Prompt": "Hot air balloons floating over a rugged landscape at dawn.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Hot air balloons adrift over an ancient desert, Chibi Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Colorful zeppelins hovering over a canyon landscape at the first light of day.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Hot air balloons soaring above a sprawling futuristic cityscape at dusk.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Spaceships land on a planet, with a backdrop of a vast, alien landscape.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "motorcycle",
+        "Video Type": "Landscape",
+        "Original Prompt": "A view over a motorcycle dashboard traveling on a forest-lined road.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "The view over a motorcycle dashboard traveling on a forest-lined road, Noir-Inspired Animation style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A view from a classic car's dashboard traveling on a forest-lined road.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A view over a motorcycle dashboard traveling on a moonlit road with the Earth visible in the night sky.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An animated clay motorcycle cruising down a golden brick road through an enchanted forest.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "overlook-city",
+        "Video Type": "Landscape",
+        "Original Prompt": "Aerial view of a cityscape during sunrise with buildings and a river in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Aerial view of a cityscape during sunrise with buildings and a river in the background, Cel-Shaded Animation style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Futuristic flying vehicles seamlessly integrated into the aerial cityscape scene.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Aerial view of a cityscape during sunrise with buildings and a river in the background, with a backdrop of the Himalayan mountains.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A neon-lit cyberpunk cityscape, with towering skyscrapers and a digital grid overlaying the river.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "overlook-the-ocean",
+        "Video Type": "Landscape",
+        "Original Prompt": "Top-down view of waves crashing against a rocky shore with turquoise waters.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Top-down view of waves crashing against a rocky shore with turquoise waters, Cartoonish and Lighthearted Animation",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Top-down view of waves crashing against a rocky shore with turquoise waters. Dolphins leaping out of the water.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "The coastline with the waves crashing against the shore of a vibrant alien planet.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A claymation-style animated scene where the rocky shore is alive with movement and the waves are ribbons of silk in motion.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "swing-fog",
+        "Video Type": "Landscape",
+        "Original Prompt": "An empty swing hanging from chains, with fog obscuring trees in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "An empty swing hanging from chains, with fog obscuring trees in the background, Gothic Animation style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A vintage wooden bench hanging from flower-laden vines, with fog obscuring trees in the background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "An empty swing hanging from chains in front of an ancient castle partially shrouded in mist.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A luminous moonlit jellyfish floating mid-air, with an enchanted forest cloaked in a mystical fog in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "thunderstorm",
+        "Video Type": "Landscape",
+        "Original Prompt": "Lightning bolts illuminating a dark sky.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Lightning bolts etched across a dark canvas in an oil painting style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Glowing neon lines in an abstract formation on a black background.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Lightning bolts strike over a bustling cityscape at night.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Futuristic city with buildings made of light, connected by electric arcs resembling lightning.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "volcanic-eruption",
+        "Video Type": "Landscape",
+        "Original Prompt": "Lava erupts from a volcano, with smoke and ash billowing into the sky.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Lava erupts from a volcano, with smoke and ash billowing into the sky, Claymation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A fountain of neon blue liquid light erupting from an urban structure with smoke and digital artifacts in the sky.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Lava flowing from a mountainous volcano on an alien planet with two moons in the twilight sky.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A dragon shaped like a mountain exhaling streams of molten gold against a backdrop of a dark fairy tale forest under a starlit sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },    
+    {
+        "Video Name": "waterfall",
+        "Video Type": "Landscape",
+        "Original Prompt": "A waterfall cascades into a serene pool surrounded by lush foliage.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A waterfall cascades into a serene pool surrounded by lush foliage, Fairy Tale Animation style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A waterfall cascades into a serene pool surrounded by lush foliage. A unicorn drinks from a serene pool as a waterfall cascades behind it.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "The waterfall flows into a pool with an ancient Roman colosseum in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An animated scene where a dragon bathes under a neon waterfall in a futuristic city.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+
+    {
+        "Video Name": "aircraft-carrier",
+        "Video Type": "Object",
+        "Original Prompt": "An aircraft carrier moored at the dock with various planes on its deck.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "An aircraft carrier at the dock with planes on its deck, presented in a grayscale wartime documentary style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A luxury cruise ship docked at the harbor with vacationers enjoying the sun on the decks.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "The aircraft carrier moored in a frozen arctic setting with icebergs in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A spaceship modeled after an aircraft carrier floating in outer space with futuristic fighters on its runway.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "art",
+        "Video Type": "Object",
+        "Original Prompt": "Blue ink dispersing in water creating an abstract formation.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Blue ink dispersing in water, rendered with a neon lights style highlighting the fluid dynamics.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A galactic cloud forming new stars in the vastness of space, with colors shifting in nebula-like patterns.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Blue ink dispersing in a clear sky, mimicking cloud formations on a breezy day.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A luminous jellyfish made of swirling light patterns, floating in the deep ocean.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "boat",
+        "Video Type": "Object",
+        "Original Prompt": "A fishing boat sails near the coast.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A fishing boat sails near the coast, Chibi Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A sleek yacht sails near the coast.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A fishing boat sails on the tranquil surface of a moonlit lake, surrounded by towering mountains.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A colorful paper boat sails on a reflective surface in a surreal dreamlike landscape with floating islands above.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "bus",
+        "Video Type": "Object",
+        "Original Prompt": "A city bus moves on the road.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A city bus moves on the road depicted in a vibrant, neon lights style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A vintage double-decker bus moves on the road.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A city bus moves on the road amidst a bustling cyberpunk metropolis.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An animated claymation-style bus moves on a quiet street in a serene origami town.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "cactus",
+        "Video Type": "Object",
+        "Original Prompt": "A cactus with a yellow flower against a blue background blooms.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A cactus with a yellow flower against a blue background blooms, Fairy Tale Animation style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A sunflower against a blue background blooms.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A cactus with a yellow flower blooms against the red rocky landscape of Mars.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An animated, friendly cactus character with a blooming flower in a claymation desert under a pastel sunset sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "car-roundabout",
+        "Video Type": "Object",
+        "Original Prompt": "A black Mini Cooper drives on the street.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A vibrant red colored Mini Cooper drives on the street, in the style of Pixar-Style Animation painting.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A vibrant red colored Mini Cooper drives on the street.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A black Mini Cooper drives on the moon, with Earth visible in the background.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "An origami-shaped blue Mini Cooper drives on a cobblestone street in a steampunk version of Venice.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 3
+    },
+    {
+        "Video Name": "car-shadow",
+        "Video Type": "Object",
+        "Original Prompt": "A silver car driving through a crosswalk on a city street.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A silver car driving through a crosswalk on a city street, portrayed in the Paper Cutout Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A sleek futuristic hovercar gliding over a crosswalk on a bustling city street.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A silver car moving along a zebra crossing in a quiet mountain village with traditional thatched cottages.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A compact cyberpunk drone-car maneuvering through a neon-lit crosswalk in a dense futuristic metropolis under a purple sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "car-turn",
+        "Video Type": "Object",
+        "Original Prompt": "A vehicle traveling on a winding road in a mountainous region with evergreen trees and grassy fields.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A vehicle traversing a serpentine mountain road, rendered in the vibrant and textured style of a Van Gogh painting.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "An antique horse-drawn carriage rolling along a winding road in the heart of the mountains.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A vehicle cruising on a curvy road amidst the red dunes of a sprawling desert landscape.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A sleek solar-powered car gliding on a crystal bridge above clouds, encircled by high-tech floating cities.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "domino",
+        "Video Type": "Object",
+        "Original Prompt": "Dominoes falling in a chain reaction.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Animated dominoes toppling in a colorful, cartoon-style sequence.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A row of vintage books falling in a chain reaction.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Dominoes falling in a row on a grand piano with a concert hall surrounding.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Glowing Holographic dominoes that casting rainbow lights cascading down, with the cosmos as backdrop.",
+                "Fantasy Level": 2
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "drift-turn",
+        "Video Type": "Object",
+        "Original Prompt": "A race car performing a drift turn on a track.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A race car drifting on a track in a grainy, high-contrast black and white film style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A futuristic hovercar performing a drift turn in an urban racing circuit.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A race car drifting on a moon crater surface with the Earth visible in the sky.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A neon-lit supercar sliding around a turn on a cyberpunk-style, rain-slicked neon street at night.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 3,
+        "Object Motion": 3,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "luxury-car",
+        "Video Type": "Object",
+        "Original Prompt": "A lineup of luxury cars cruising down a sunlit boulevard flanked by palm trees.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A lineup of luxury cars cruising down a sunlit boulevard flanked by palm trees, Pixar-Style Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Vintage classic cars from the 1920s gracefully parading down a modern sunlit boulevard flanked by palm trees.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Luxury cars cruising down a boulevard that is surrounded by the lush vegetation of an ancient rainforest.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Futuristic, sleek hovercars gliding down a boulevard lined with extraterrestrial flora under a distant planet's sky.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "planes-water",
+        "Video Type": "Object",
+        "Original Prompt": "A large airplane on a wet runway under a twilight sky.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A large airplane on a wet runway under a twilight sky, all rendered in a somber grayscale tone.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A colossal dragon gently treads on a wet runway, wings spread wide, under a twilight sky.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A large airplane on a glistening runway made of glass, overlooking a vast cityscape at night.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A sleek spaceship lands on a runway adorned with glowing runes, set in a futuristic city during the blue hour.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "rotate",
+        "Video Type": "Object",
+        "Original Prompt": "A colorful radial pattern rotating.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A colorful radial pattern rotating with a kaleidoscopic effect, mimicking stained glass.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A spinning vinyl record with a colorful label, echoing the radial pattern.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A colorful radial pattern rotating within the interior of a spinning mirrored disco ball.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A vibrant mandala spinning, transitioning through seasons, within an ancient temple during a time-lapse of day to night.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "soccerball",
+        "Video Type": "Object",
+        "Original Prompt": "A soccer ball rolling across a grassy field beside a wire fence.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A soccer ball rolling across a grassy field beside a wire fence, Comic Book Art style.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A vintage lantern tumbling across a grassy field beside a wire fence.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A soccer ball rolling across the moon's surface with Earth in the distant skyline.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A glowing orb of energy bouncing across a futuristic cityscape at dusk.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "sunflower",
+        "Video Type": "Object",
+        "Original Prompt": "A vibrant sunflower blooms against a plain background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A vibrant sunflower rendered in an impressionist style, Van Gogh's sunflower series.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A bright full moon against a dark night sky, with craters forming patterns similar to a sunflower's.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A vibrant sunflower standing tall in a lush and wild meadow under a clear blue sky.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A mechanical sunflower with metallic petals blooms, powering a futuristic green city in the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 3,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "surf",
+        "Video Type": "Object",
+        "Original Prompt": "A person windsurfing on a clear day at sea.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A person windsurfing on a clear day at sea, in Anime style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A person kite surfing on a clear day at sea.",
+                "Fantasy Level": 1
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A person windsurfing in the midst of a serene mountain lake surrounded by autumn-colored forests.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A paladin with armor surfing on the magma.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "toy-rocket",
+        "Video Type": "Object",
+        "Original Prompt": "A toy rocket launched in a grassy field.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A toy rocket launches, in Traditional Sci-Fi Animation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A classic UFO hovering above the grass, fly to sky.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A toy rocket launches, with the Martian landscape stretching into the horizon.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A rocket launches, on the Mars.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 1
+    },
+    {
+        "Video Name": "train",
+        "Video Type": "Object",
+        "Original Prompt": "A model train moving along the track with miniature figures and trees alongside.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A model train moving along the track with miniature figures and trees alongside, all depicted in a claymation style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "A stream of futuristic hover cars gliding along a transparent track with miniature figures and artificial intelligence robots alongside.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A model train chugging along tracks surrounded by the bustling streets of a miniature cityscape at twilight.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A miniature magical express running through a fantastical forest with mythical creatures observing its passage.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "truck",
+        "Video Type": "Object",
+        "Original Prompt": "Friends enjoying a road trip in a red van on a country road.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "Friends enjoying a road trip in a red van on a country road, presented in a black and white old movie style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "Animated characters enjoying a road trip in a cartoonish red spaceship on a country road.",
+                "Fantasy Level": 3
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "Friends enjoying a road trip in a red van on a winding road along the Amalfi Coast.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "Steampunk adventurers traveling in a retro-futuristic vehicle through an autumnal forest.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 2,
+        "Object Motion": 2,
+        "Scene Complexity": 2
+    },
+    {
+        "Video Name": "yacht",
+        "Video Type": "Object",
+        "Original Prompt": "A cruise ship sailing through the ocean with a city skyline in the background.",
+        "Editing": [
+            { 
+                "Editing Type": "Style Change",
+                "Target Prompt": "A cruise ship sailing through the ocean with a city skyline in the background, in Studio Ghibli style.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Object Change",
+                "Target Prompt": "An ancient galleon navigating through the ocean with a city skyline in the background.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Background Change",
+                "Target Prompt": "A cruise ship sailing through the crystalline waters of an arctic landscape dotted with icebergs.",
+                "Fantasy Level": 2
+            },
+            { 
+                "Editing Type": "Multiple Change",
+                "Target Prompt": "A space cruiser modeled after a cruise ship gliding through the cosmos with a nebula illuminating the background.",
+                "Fantasy Level": 3
+            }
+        ],
+        "Camera Motion": 1,
+        "Object Motion": 1,
+        "Scene Complexity": 2
+    }
+]

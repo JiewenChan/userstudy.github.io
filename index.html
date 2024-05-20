@@ -411,7 +411,7 @@
                     }
 
                     MySubmit += "submit=Submit";
-                    window.location.replace(MySubmit);
+                    window.open(MySubmit);
                 } else {
                     now += 1;
                     renderVideos(now);
@@ -434,9 +434,9 @@
                 return true;
             }
 
-            let q1 = document.querySelector( 'input[name="Q1"]:checked');   
-            let q2 = document.querySelector( 'input[name="Q2"]:checked');   
-            let q3 = document.querySelector( 'input[name="Q3"]:checked'); 
+            let q1 = document.querySelector('input[name="Q1"]:checked');   
+            let q2 = document.querySelector('input[name="Q2"]:checked');   
+            let q3 = document.querySelector('input[name="Q3"]:checked'); 
 
             if (q1!=null && q2!=null && q3!=null) {
                 videos_list[now]['Q1'] = q1.value == "1" ? videos_list[now]['video'][0]['value']: videos_list[now]['video'][1]['value'];
