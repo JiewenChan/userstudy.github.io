@@ -16,7 +16,7 @@
         }
         .original-video {
             position: relative; 
-            left: 20%;
+            left: 16%;
         }
         .video-container {
             display: grid;
@@ -37,7 +37,7 @@
             background-color: black;
             color: white;
             border: none;
-            padding: 10px 20px;
+            padding: 15px 25px;
             cursor: pointer;
         }
     </style>
@@ -101,8 +101,16 @@
                 "name": "corgi",
                 "text_prompt": "A playful corgi dog with its mouth open and tongue out, looking excitedly at the camera, rendered in a sketch style.",
                 "original_video": "all_results/corgi/original_fps15.mp4",
-                "video1": "all_results/corgi/medm_fps15.mp4",
-                "video2": "all_results/corgi/ours_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/corgi/medm_fps15.mp4",
+                        "value": "medm"
+                    },
+                    {
+                        "url": "all_results/corgi/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                ],
                 "Q1": null,
                 "Q2": null,
                 "Q3": null,
@@ -111,9 +119,16 @@
                 "name": "gold-fish",
                 "text_prompt": "Brightly colored goldfish swim in clear blue waters, moving gracefully between underwater plants and rocks, in a vintage 1950s film style.",
                 "original_video": "all_results/gold-fish/original_fps15.mp4",
-                "video1": "all_results/gold-fish/ours_fps15.mp4",
-                "video2": "all_results/gold-fish/codef_fps15.mp4",
-                "selection": ["gold-fish1", "gold-fish2"],
+                "video": [
+                    {
+                        "url": "all_results/gold-fish/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/gold-fish/codef_fps15.mp4",
+                        "value": "codef"
+                    },
+                ],
                 "Q1": null,
                 "Q2": null,
                 "Q3": null,
@@ -122,26 +137,264 @@
                 "name": "truck",
                 "text_prompt": "Friends enjoying a road trip in a red van on a country road, presented in a black and white old movie style.",
                 "original_video": "all_results/truck/original_fps15.mp4",
-                "video1": "all_results/truck/ours_fps15.mp4",
-                "video2": "all_results/truck/hashing_video_fps15.mp4",
-                "selection": ["truck1", "truck2"],
+                "video": [
+                    {
+                        "url": "all_results/truck/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/truck/hashing_video_fps15.mp4",
+                        "value": "hashing_video"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "shark-ocean",
+                "text_prompt": "A sleek shark glides through clear waters, accompanied by a myriad of other fish, illuminated by the shimmering light from above, rendered in a dreamy pastel style.",
+                "original_video": "all_results/shark-ocean/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/shark-ocean/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/shark-ocean/medm_fps15.mp4",
+                        "value": "medm"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "woman-running",
+                "text_prompt": "A woman in a pink jacket with a vest and earphones is jogging near a water body with a tall building in the background, portrayed in an abstract painting style.",
+                "original_video": "all_results/woman-running/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/woman-running/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/woman-running/codef_fps15.mp4",
+                        "value": "codef"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "tiger",
+                "text_prompt": "Illustration of a tiger in a wooden enclosure.",
+                "original_video": "all_results/tiger/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/tiger/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/tiger/hashing_video_fps15.mp4",
+                        "value": "hashing_video"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "swing-fog",
+                "text_prompt": "An empty swing hanging from chains, with fog obscuring trees in the background, Gothic Animation style.",
+                "original_video": "all_results/swing-fog/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/swing-fog/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/swing-fog/medm_fps15.mp4",
+                        "value": "medm"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "mbike-trick",
+                "text_prompt": "A motorcyclist wearing a white shirt and helmet, creating a thick cloud of smoke on a tarmac with skid marks, depicted in a gritty black and white film noir style.",
+                "original_video": "all_results/mbike-trick/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/mbike-trick/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/mbike-trick/hashing_video_fps15.mp4",
+                        "value": "hashing_video"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "elephant",
+                "text_prompt": "An elephant walks amidst rocks, spraying dust onto its back under the shade of a tree, with a structure in the distance, old movies style.",
+                "original_video": "all_results/elephant/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/elephant/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/elephant/hashing_video_fps15.mp4",
+                        "value": "hashing_video"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "overlook-the-ocean",
+                "text_prompt": "Top-down view of waves crashing against a rocky shore with turquoise waters, Cartoonish and Lighthearted Animation",
+                "original_video": "all_results/overlook-the-ocean/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/overlook-the-ocean/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/overlook-the-ocean/medm_fps15.mp4",
+                        "value": "medm"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "surf",
+                "text_prompt": "A person windsurfing on a clear day at sea, in Anime style.",
+                "original_video": "all_results/surf/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/surf/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/surf/codef_fps15.mp4",
+                        "value": "codef"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "rabbit-watermelon",
+                "text_prompt": "A black and white rabbit, is nibbling on a slice of watermelon with delight, sitting on a canvas with a gray background, painted in an oil painting style.",
+                "original_video": "all_results/rabbit-watermelon/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/rabbit-watermelon/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/rabbit-watermelon/codef_fps15.mp4",
+                        "value": "codef"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "koolshooters",
+                "text_prompt": "A young woman with red hair, looking upwards with a thoughtful expression, in a warmly lit environment, Minimalist and Abstract Animation.",
+                "original_video": "all_results/koolshooters/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/koolshooters/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/koolshooters/hashing_video_fps15.mp4",
+                        "value": "hashing_video"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "rhino",
+                "text_prompt": "A robust rhino is strolling through its enclosure, surrounded by rocks, and trees, in an art notebook.",
+                "original_video": "all_results/rhino/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/rhino/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/rhino/codef_fps15.mp4",
+                        "value": "codef"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            },
+            {
+                "name": "boat",
+                "text_prompt": "A fishing boat sails near the coast, Chibi Animation style.",
+                "original_video": "all_results/boat/original_fps15.mp4",
+                "video": [
+                    {
+                        "url": "all_results/boat/ours_fps15.mp4",
+                        "value": "ours"
+                    },
+                    {
+                        "url": "all_results/boat/medm_fps15.mp4",
+                        "value": "medm"
+                    },
+                ],
                 "Q1": null,
                 "Q2": null,
                 "Q3": null,
             },
         ]
 
+        
+        entry_list = [
+            ["entry.2125490581", "entry.2080099033", "entry.787853927"],
+            ["entry.1372537838", "entry.472180442", "entry.189779099"],
+            ["entry.879584889", "entry.1192493797", "entry.592744835"],
+            ["entry.1524869044", "entry.1553191529", "entry.442712978"],
+            ["entry.277023299", "entry.178317512", "entry.1638103689"],
+            ["entry.545691709", "entry.2122281902", "entry.1295635086"],
+            ["entry.1324347345", "entry.1468420399", "entry.1830225463"],
+            ["entry.1803416582", "entry.258372846", "entry.1641977658"],
+            ["entry.777412838", "entry.1188271433", "entry.723532485"],
+            ["entry.2051570683", "entry.81840528", "entry.1555251875"],
+            ["entry.2059414437", "entry.529442351", "entry.784480663"],
+            ["entry.1766930993", "entry.1316937407", "entry.380261123"],
+            ["entry.1489590171", "entry.1050781807", "entry.63644096"],
+            ["entry.1000678790", "entry.2121748361", "entry.1511438076"],
+            ["entry.500770907", "entry.922414313", "entry.1624512946"],
+        ]
+        
         function prevPage() {
             // Add functionality for previous page
             console.log('Previous page');
-            if (changePage(now)) {
-                now -= 1;
-                renderVideos(now);
-                resetRadioStatus(now);
-            } else {
-                alert("Cannot be empty!!!!");
-            }
-            
+            changePage(now)
+            now -= 1;
+            renderVideos(now);
+            resetRadioStatus(now);
         }
 
         function nextPage() {
@@ -151,9 +404,13 @@
                 if(now === videos_list.length-1) {
                     MySubmit = "https://docs.google.com/forms/d/e/1FAIpQLSeE43m-Q7paP_JNDVnejGsWlpgw1rDXXjO9s0MObWqPYaK9Ow/formResponse?";
                     MySubmit += "entry.1926733457=" + videos_list[0]["username"] + "&";
-                    MySubmit += "entry.2080099033=" + videos_list[1]["Q1"] + "&";
-                    MySubmit += "entry.2125490581=" + videos_list[1]["Q2"] + "&";
-                    MySubmit += "entry.787853927=" + videos_list[1]["Q3"] + "&";
+                    
+                    for(let i=1; i<videos_list.length; i++) {
+                        MySubmit += entry_list[i-1][0] + "=" + videos_list[i]["Q1"] + "&";
+                        MySubmit += entry_list[i-1][1] + "=" + videos_list[i]["Q2"] + "&";
+                        MySubmit += entry_list[i-1][2] + "=" + videos_list[i]["Q3"] + "&";
+                    }
+
                     MySubmit += "submit=Submit";
                     window.open(MySubmit);
                 } else {
@@ -183,9 +440,9 @@
             let q3 = document.querySelector( 'input[name="Q3"]:checked'); 
 
             if (q1!=null && q2!=null && q3!=null) {
-                videos_list[now]['Q1'] = q1.value;
-                videos_list[now]['Q2'] = q2.value;
-                videos_list[now]['Q3'] = q3.value;
+                videos_list[now]['Q1'] = q1.value == "1" ? videos_list[now]['video'][0]['value']: videos_list[now]['video'][1]['value'];
+                videos_list[now]['Q2'] = q2.value == "1" ? videos_list[now]['video'][0]['value']: videos_list[now]['video'][1]['value'];
+                videos_list[now]['Q3'] = q3.value == "1" ? videos_list[now]['video'][0]['value']: videos_list[now]['video'][1]['value'];
                 return true
             } else {
                 return false
@@ -258,11 +515,11 @@
                         <div>
                             <span>Video 1</span>
                             <video width="256" controls loop autoplay>
-                                <source src="${videos_list[now]['video1']}" type="video/mp4" />
+                                <source src="${videos_list[now]['video'][0]['url']}" type="video/mp4" />
                             </video>
                             <span>Video 2</span>
                             <video width="256" controls loop autoplay>
-                                <source src="${videos_list[now]['video2']}" type="video/mp4" />
+                                <source src="${videos_list[now]['video'][1]['url']}" type="video/mp4" />
                             </video>
                         </div>
                     </div>
@@ -290,9 +547,36 @@
             }
         }
 
+        function shuffle(array) {
+            let currentIndex = array.length;
+
+            // While there remain elements to shuffle...
+            while (currentIndex != 0) {
+
+                // Pick a remaining element...
+                let randomIndex = Math.floor(Math.random() * currentIndex);
+                currentIndex--;
+
+                // And swap it with the current element.
+                [array[currentIndex], array[randomIndex]] = [
+                array[randomIndex], array[currentIndex]];
+            }
+        }
+        
         now = 0
+        for(let i=1; i<videos_list.length; i++) {
+            shuffle(videos_list[i]['video']);
+        }
         renderVideos(now);
         resetRadioStatus(now);
+
+        $(document).ready(function(){
+            $('#username').keypress(function(e){
+                if(e.keyCode==13) {
+                    nextPage();
+                }
+            });
+        });
     </script>
 </body>
 </html>
