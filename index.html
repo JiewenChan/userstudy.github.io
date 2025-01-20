@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Video Page</title>
+    <title>Voxel Page</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,9 +14,9 @@
             margin: 0;
             background-color: #f5f5f5;
         }
-        .original-video {
+        .input-mesh {
             position: relative; 
-            left: 16%;
+            left: 36%;
         }
         .video-container {
             display: grid;
@@ -44,35 +44,53 @@
 </head>
 <body>
     <div class="video-container">
-        <div id="videos"></div>
+        <div id="images"></div>
     </div>
     <br>
     <form>
     <fieldset id="question" style="width:600px;">
         <legend><b id="text_prompt"></b></legend>
-        <p>Q1. Which video has better temporal consistency?</p>
+        <p>Q1. Which voxel art version best preserves the original 3D shape and structure of the object?</p>
         <div>
             <input type="radio" id="q1v1" name="Q1" value="1" class="radio-container"/>
-            <label for="q1v1">Video 1</label>
+            <label for="q1v1">1</label>
         
             <input type="radio" id="q1v2" name="Q1" value="2" class="radio-container"/>
-            <label for="q1v2">Video 2</label>
+            <label for="q1v2">2</label>
+
+            <input type="radio" id="q1v3" name="Q1" value="3" class="radio-container"/>
+            <label for="q1v3">3</label>
+        
+            <input type="radio" id="q1v4" name="Q1" value="4" class="radio-container"/>
+            <label for="q1v4">4</label>
         </div>
-        <p>Q2. Which video aligns better with the text prompt?</p>
+        <p>Q2. Which voxel art version most clearly and prominently represents abstract details, such as facial features, clothing, and textures?</p>
         <div>
             <input type="radio" id="q2v1" name="Q2" value="1" class="radio-container"/>
-            <label for="q2v1">Video 1</label>
+            <label for="q2v1">1</label>
         
             <input type="radio" id="q2v2" name="Q2" value="2" class="radio-container"/>
-            <label for="q2v2">Video 2</label>
+            <label for="q2v2">2</label>
+
+            <input type="radio" id="q2v3" name="Q2" value="3" class="radio-container"/>
+            <label for="q2v3">3</label>
+        
+            <input type="radio" id="q2v4" name="Q2" value="4" class="radio-container"/>
+            <label for="q2v4">4</label>
         </div>
-        <p>Q3. Which video has better overall quality?</p>
+        <p>Q3. Which voxel art version looks the most visually appealing overall, considering balance, harmony, and artistic quality?</p>
         <div>
             <input type="radio" id="q3v1" name="Q3" value="1" class="radio-container"/>
-            <label for="q3v1">Video 1</label>
+            <label for="q3v1">1</label>
         
             <input type="radio" id="q3v2" name="Q3" value="2" class="radio-container"/>
-            <label for="q3v2">Video 2</label>
+            <label for="q3v2">2</label>
+
+            <input type="radio" id="q3v3" name="Q3" value="3" class="radio-container"/>
+            <label for="q3v3">3</label>
+        
+            <input type="radio" id="q3v4" name="Q3" value="4" class="radio-container"/>
+            <label for="q3v4">4</label>
         </div>
     </fieldset>
     </form>
@@ -92,279 +110,9 @@
     <script src="vendor/daterangepicker/moment.min.js"></script>
     <script src="vendor/daterangepicker/daterangepicker.js"></script>
     <script>
-        videos_list = [
+        images_list = [
             {
                 'username': ""
-            },
-            {
-                "name": "corgi",
-                "text_prompt": "A playful corgi dog with its mouth open and tongue out, looking excitedly at the camera, rendered in a sketch style.",
-                "original_video": "video_results/corgi/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/corgi/medm_fps15.mp4",
-                        "value": "medm"
-                    },
-                    {
-                        "url": "video_results/corgi/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "gold-fish",
-                "text_prompt": "Brightly colored goldfish swim in clear blue waters, moving gracefully between underwater plants and rocks, in a vintage 1950s film style.",
-                "original_video": "video_results/gold-fish/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/gold-fish/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/gold-fish/codef_fps15.mp4",
-                        "value": "codef"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "truck",
-                "text_prompt": "Friends enjoying a road trip in a red van on a country road, presented in a black and white old movie style.",
-                "original_video": "video_results/truck/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/truck/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/truck/hashing_video_fps15.mp4",
-                        "value": "hashing_video"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "shark-ocean",
-                "text_prompt": "A sleek shark glides through clear waters, accompanied by a myriad of other fish, illuminated by the shimmering light from above, rendered in a dreamy pastel style.",
-                "original_video": "video_results/shark-ocean/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/shark-ocean/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/shark-ocean/medm_fps15.mp4",
-                        "value": "medm"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "woman-running",
-                "text_prompt": "A woman in a pink jacket with a vest and earphones is jogging near a water body with a tall building in the background, portrayed in an abstract painting style.",
-                "original_video": "video_results/woman-running/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/woman-running/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/woman-running/codef_fps15.mp4",
-                        "value": "codef"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "tiger",
-                "text_prompt": "Illustration of a tiger in a wooden enclosure.",
-                "original_video": "video_results/tiger/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/tiger/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/tiger/hashing_video_fps15.mp4",
-                        "value": "hashing_video"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "swing-fog",
-                "text_prompt": "An empty swing hanging from chains, with fog obscuring trees in the background, Gothic Animation style.",
-                "original_video": "video_results/swing-fog/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/swing-fog/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/swing-fog/medm_fps15.mp4",
-                        "value": "medm"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "mbike-trick",
-                "text_prompt": "A motorcyclist wearing a white shirt and helmet, creating a thick cloud of smoke on a tarmac with skid marks, depicted in a gritty black and white film noir style.",
-                "original_video": "video_results/mbike-trick/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/mbike-trick/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/mbike-trick/hashing_video_fps15.mp4",
-                        "value": "hashing_video"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "elephant",
-                "text_prompt": "An elephant walks amidst rocks, spraying dust onto its back under the shade of a tree, with a structure in the distance, old movies style.",
-                "original_video": "video_results/elephant/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/elephant/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/elephant/hashing_video_fps15.mp4",
-                        "value": "hashing_video"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "overlook-the-ocean",
-                "text_prompt": "Top-down view of waves crashing against a rocky shore with turquoise waters, Cartoonish and Lighthearted Animation",
-                "original_video": "video_results/overlook-the-ocean/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/overlook-the-ocean/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/overlook-the-ocean/medm_fps15.mp4",
-                        "value": "medm"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "surf",
-                "text_prompt": "A person windsurfing on a clear day at sea, in Anime style.",
-                "original_video": "video_results/surf/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/surf/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/surf/codef_fps15.mp4",
-                        "value": "codef"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "rabbit-watermelon",
-                "text_prompt": "A black and white rabbit, is nibbling on a slice of watermelon with delight, sitting on a canvas with a gray background, painted in an oil painting style.",
-                "original_video": "video_results/rabbit-watermelon/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/rabbit-watermelon/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/rabbit-watermelon/codef_fps15.mp4",
-                        "value": "codef"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "koolshooters",
-                "text_prompt": "A young woman with red hair, looking upwards with a thoughtful expression, in a warmly lit environment, Minimalist and Abstract Animation.",
-                "original_video": "video_results/koolshooters/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/koolshooters/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/koolshooters/hashing_video_fps15.mp4",
-                        "value": "hashing_video"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "rhino",
-                "text_prompt": "A robust rhino is strolling through its enclosure, surrounded by rocks, and trees, in an art notebook.",
-                "original_video": "video_results/rhino/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/rhino/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/rhino/codef_fps15.mp4",
-                        "value": "codef"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
-            },
-            {
-                "name": "boat",
-                "text_prompt": "A fishing boat sails near the coast, Chibi Animation style.",
-                "original_video": "video_results/boat/original_fps15.mp4",
-                "video": [
-                    {
-                        "url": "video_results/boat/ours_fps15.mp4",
-                        "value": "ours"
-                    },
-                    {
-                        "url": "video_results/boat/medm_fps15.mp4",
-                        "value": "medm"
-                    },
-                ],
-                "Q1": null,
-                "Q2": null,
-                "Q3": null,
             },
         ]
 
@@ -375,16 +123,18 @@
             ["entry.879584889", "entry.1192493797", "entry.592744835"],
             ["entry.1524869044", "entry.1553191529", "entry.442712978"],
             ["entry.277023299", "entry.178317512", "entry.1638103689"],
+
             ["entry.545691709", "entry.2122281902", "entry.1295635086"],
             ["entry.1324347345", "entry.1468420399", "entry.1830225463"],
             ["entry.1803416582", "entry.258372846", "entry.1641977658"],
             ["entry.777412838", "entry.1188271433", "entry.723532485"],
             ["entry.2051570683", "entry.81840528", "entry.1555251875"],
+
             ["entry.2059414437", "entry.529442351", "entry.784480663"],
             ["entry.1766930993", "entry.1316937407", "entry.380261123"],
             ["entry.1489590171", "entry.1050781807", "entry.63644096"],
             ["entry.1000678790", "entry.2121748361", "entry.1511438076"],
-            ["entry.500770907", "entry.922414313", "entry.1624512946"],
+            ["entry.500770907", "entry.922414313", "entry.1624512946"]
         ]
         
         function prevPage() {
@@ -392,7 +142,7 @@
             console.log('Previous page');
             changePage(now)
             now -= 1;
-            renderVideos(now);
+            renderImages(now);
             resetRadioStatus(now);
         }
 
@@ -400,21 +150,21 @@
             // Add functionality for next page
             console.log('Next page');
             if (changePage(now)) {
-                if(now === videos_list.length-1) {
-                    MySubmit = "https://docs.google.com/forms/d/e/1FAIpQLSeE43m-Q7paP_JNDVnejGsWlpgw1rDXXjO9s0MObWqPYaK9Ow/formResponse?";
-                    MySubmit += "entry.1926733457=" + videos_list[0]["username"] + "&";
+                if(now === images_list.length-1) {
+                    MySubmit = "https://docs.google.com/forms/d/e/1FAIpQLSfWXOhAPmCvcUwhaJXhL18-hLdbBnupLVpR0oyZ2kCi_WGtrA/formResponse?";
+                    MySubmit += "entry.1926733457=" + images_list[0]["username"] + "&";
                     
-                    for(let i=1; i<videos_list.length; i++) {
-                        MySubmit += entry_list[i-1][0] + "=" + videos_list[i]["Q1"] + "&";
-                        MySubmit += entry_list[i-1][1] + "=" + videos_list[i]["Q2"] + "&";
-                        MySubmit += entry_list[i-1][2] + "=" + videos_list[i]["Q3"] + "&";
+                    for(let i=1; i<images_list.length; i++) {
+                        MySubmit += entry_list[i-1][0] + "=" + images_list[i]["Q1"] + "&";
+                        MySubmit += entry_list[i-1][1] + "=" + images_list[i]["Q2"] + "&";
+                        MySubmit += entry_list[i-1][2] + "=" + images_list[i]["Q3"] + "&";
                     }
 
                     MySubmit += "submit=Submit";
                     window.location.replace(MySubmit);
                 } else {
                     now += 1;
-                    renderVideos(now);
+                    renderImages(now);
                     resetRadioStatus(now);
                 }
                 
@@ -429,8 +179,8 @@
                 if (username.value == "") {
                     return false;
                 }
-                videos_list[0]['username'] = username.value;
-                console.log(videos_list[0]['username'])
+                images_list[0]['username'] = username.value;
+                console.log(images_list[0]['username'])
                 return true;
             }
 
@@ -439,9 +189,9 @@
             let q3 = document.querySelector('input[name="Q3"]:checked'); 
 
             if (q1!=null && q2!=null && q3!=null) {
-                videos_list[now]['Q1'] = q1.value == "1" ? videos_list[now]['video'][0]['value']: videos_list[now]['video'][1]['value'];
-                videos_list[now]['Q2'] = q2.value == "1" ? videos_list[now]['video'][0]['value']: videos_list[now]['video'][1]['value'];
-                videos_list[now]['Q3'] = q3.value == "1" ? videos_list[now]['video'][0]['value']: videos_list[now]['video'][1]['value'];
+                images_list[now]['Q1'] = images_list[now]['voxel'][parseInt(q1.value)-1]['value']
+                images_list[now]['Q2'] = images_list[now]['voxel'][parseInt(q2.value)-1]['value']
+                images_list[now]['Q3'] = images_list[now]['voxel'][parseInt(q3.value)-1]['value']
                 return true
             } else {
                 return false
@@ -455,41 +205,26 @@
             let q2 = document.querySelector( 'input[name="Q2"]:checked');   
             let q3 = document.querySelector( 'input[name="Q3"]:checked');
 
-            if(videos_list[now]['Q1'] === null) {
-                document.getElementById("q1v1").checked = false;
-                document.getElementById("q1v2").checked = false;
-            } else if(videos_list[now]['Q1'] === videos_list[now]['video'][0]['value']) {
-                document.getElementById("q1v2").checked = false;
-                document.getElementById("q1v1").checked = true;
-            }  else if (videos_list[now]['Q1'] === videos_list[now]['video'][1]['value']) {
-                document.getElementById("q1v1").checked = false;
-                document.getElementById("q1v2").checked = true;
-            }
+            for(let q=1; q<=3; q++) {
+                document.getElementById(`q${q}v1`).checked = false;
+                document.getElementById(`q${q}v2`).checked = false;
+                document.getElementById(`q${q}v3`).checked = false;
+                document.getElementById(`q${q}v4`).checked = false;
 
-            if(videos_list[now]['Q2'] === null) {
-                document.getElementById("q2v1").checked = false;
-                document.getElementById("q2v2").checked = false;
-            } else if(videos_list[now]['Q2'] === videos_list[now]['video'][0]['value']) {
-                document.getElementById("q2v2").checked = false;
-                document.getElementById("q2v1").checked = true;
-            }  else if (videos_list[now]['Q2'] === videos_list[now]['video'][1]['value']) {
-                document.getElementById("q2v1").checked = false;
-                document.getElementById("q2v2").checked = true;
-            }
-
-            if(videos_list[now]['Q3'] === null) {
-                document.getElementById("q3v1").checked = false;
-                document.getElementById("q3v2").checked = false;
-            } else if(videos_list[now]['Q3'] === videos_list[now]['video'][0]['value']) {
-                document.getElementById("q3v2").checked = false;
-                document.getElementById("q3v1").checked = true;
-            }  else if (videos_list[now]['Q3'] === videos_list[now]['video'][1]['value']) {
-                document.getElementById("q3v1").checked = false;
-                document.getElementById("q3v2").checked = true;
+                console.log(images_list[now][`Q${q}`]);
+                if(images_list[now][`Q${q}`] === images_list[now]['voxel'][0]['value']) {
+                    document.getElementById(`q${q}v1`).checked = true;
+                } else if (images_list[now][`Q${q}`] === images_list[now]['voxel'][1]['value']) {
+                    document.getElementById(`q${q}v2`).checked = true;
+                } else if (images_list[now][`Q${q}`] === images_list[now]['voxel'][2]['value']) {
+                    document.getElementById(`q${q}v3`).checked = true;
+                } else if (images_list[now][`Q${q}`] === images_list[now]['voxel'][3]['value']) {
+                    document.getElementById(`q${q}v4`).checked = true;
+                }
             }
         }
 
-        function renderVideos(now) {
+        function renderImages(now) {
             if(now == 0) {
                 let txt = `
                     <br><br><br><br><br><br>
@@ -501,31 +236,37 @@
                         </fieldset>
                     </form>
                 `;
-                document.getElementById("videos").innerHTML = txt;
+                document.getElementById("images").innerHTML = txt;
             } else {
                 let txt = `
                     <div>
-                        <label for="${videos_list[now]["name"]}">
-                            <span>Original Video</span>
-                            <video class="original-video" id="video1" width="256" controls loop autoplay>
-                                <source src="${videos_list[now]['original_video']}" type="video/mp4" />
-                            </video>
+                        <label for="${images_list[now]["name"]}">
+                            <span class="input-mesh">Input Mesh</span>
+                            <img class="input-mesh" src="${images_list[now]['input_mesh']}" width="200"/>
                         </label>
                         <div>
-                            <span>Video 1</span>
-                            <video width="256" controls loop autoplay>
-                                <source src="${videos_list[now]['video'][0]['url']}" type="video/mp4" />
-                            </video>
-                            <span>Video 2</span>
-                            <video width="256" controls loop autoplay>
-                                <source src="${videos_list[now]['video'][1]['url']}" type="video/mp4" />
-                            </video>
+                            <span>Voxel 1</span>
+                            <img src="${images_list[now]['voxel'][0]['url']}" width="200"/>
+                            <span>Voxel 2</span>
+                            <img src="${images_list[now]['voxel'][1]['url']}" width="200"/>
+                            <span>Voxel 3</span>
+                            <img src="${images_list[now]['voxel'][2]['url']}" width="200"/>
+                            <span>Voxel 4</span>
+                            <img src="${images_list[now]['voxel'][3]['url']}" width="200"/>
                         </div>
                     </div>
                 `;
-                document.getElementById("text_prompt").innerHTML = `Text prompt: ${videos_list[now]['text_prompt']}`
-                document.getElementById("videos").innerHTML = txt;
-                document.getElementById("num_page").innerHTML = `${now}/${videos_list.length-1}`;
+                // <span>Voxel 1</span>
+                            // <img src="${images_list[now]['voxel'][0]['url']}" width="256"/>
+                            // <span>Voxel 2</span>
+                            // <img src="${images_list[now]['voxel'][1]['url']}" width="256"/>
+                            // <span>Voxel 3</span>
+                            // <img src="${images_list[now]['voxel'][2]['url']}" width="256"/>
+                            // <span>Voxel 4</span>
+                            // <img src="${images_list[now]['voxel'][3]['url']}" width="256"/>
+                document.getElementById("text_prompt").innerHTML = `Questions`
+                document.getElementById("images").innerHTML = txt;
+                document.getElementById("num_page").innerHTML = `${now}/${images_list.length-1}`;
             }
             if(now == 0) {
                 document.getElementById("question").style.visibility="hidden";
@@ -539,7 +280,7 @@
                 document.getElementById("prev_button").style.visibility="visible";
             }
 
-            if(now == videos_list.length-1) {
+            if(now == images_list.length-1) {
                 document.getElementById("next_button").innerHTML = `SUBMIT`;
             } else {
                 document.getElementById("next_button").innerHTML = `NEXT`;
@@ -563,10 +304,39 @@
         }
         
         now = 0
-        for(let i=1; i<videos_list.length; i++) {
-            shuffle(videos_list[i]['video']);
+
+        for(let i=1; i<16; i++) {
+            images_list.push({
+                "name": `${i}`,
+                "input_mesh": `imgs/${i}/original.jpeg`,
+                "voxel": [
+                    {
+                        "url": `imgs/${i}/nn.jpeg`,
+                        "value": "nn"
+                    },
+                    {
+                        "url": `imgs/${i}/dvgo.jpeg`,
+                        "value": "dvgo"
+                    },
+                    {
+                        "url": `imgs/${i}/dvgo_nn.jpeg`,
+                        "value": "dvgo_nn"
+                    },
+                    {
+                        "url": `imgs/${i}/ours.jpeg`,
+                        "value": "ours"
+                    },
+                ],
+                "Q1": null,
+                "Q2": null,
+                "Q3": null,
+            })
         }
-        renderVideos(now);
+
+        for(let i=1; i<images_list.length; i++) {
+            shuffle(images_list[i]['voxel']);
+        }
+        renderImages(now);
 
         $(document).ready(function(){
             $('#username').keypress(function(e){
